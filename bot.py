@@ -3,9 +3,10 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from pymongo import MongoClient
 
-TOKEN = os.getenv("TOKEN")
-MONGO = os.getenv("MONGO")
-CHANNEL = "@your_channel"
+TOKEN = os.getenv("8075424913:AAEwgo6msBvIXxBcuxXRGvkNGFTF3bihrPQ")
+MONGO = os.getenv("mongodb+srv://Mohameddahi123a:<db_password>@cluster0.jf1xisu.mongodb.net/?appName=Cluster0")
+CHANNEL = "@tgstars203"
+GROUP = "@Profite_internet"
 
 client = MongoClient(MONGO)
 db = client["ref_bot"]
